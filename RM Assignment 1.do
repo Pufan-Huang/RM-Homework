@@ -16,7 +16,7 @@ label variable recruiteriswhite "RecruiterWhite"
 label variable recruiterismale "RecruiterMale"
 
 * Regression: 
-reg calledback eliteschoolcandidate
+reg calledback eliteschoolcandidate malecandidate
 eststo Reg_1
 reg calledback eliteschoolcandidate bigcompanycandidate malecandidate recruiteriswhite recruiterismale
 eststo Reg_2
